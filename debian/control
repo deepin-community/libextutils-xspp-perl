@@ -1,0 +1,32 @@
+Source: libextutils-xspp-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ryan Niebur <ryan@debian.org>,
+           Jonathan Yu <jawnsy@cpan.org>,
+           gregor herrmann <gregoa@debian.org>,
+           Ansgar Burchardt <ansgar@debian.org>
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 8),
+               libmodule-build-perl (>= 0.400000)
+Build-Depends-Indep: perl,
+                     libparse-yapp-perl,
+                     libtest-base-perl,
+                     libtest-differences-perl,
+                     perl (>= 5.15.6) | libextutils-parsexs-perl (>= 3.070000)
+Standards-Version: 3.9.6
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libextutils-xspp-perl.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libextutils-xspp-perl.git
+Homepage: https://metacpan.org/release/ExtUtils-XSpp
+Testsuite: autopkgtest-pkg-perl
+
+Package: libextutils-xspp-perl
+Architecture: all
+Depends: ${perl:Depends},
+         ${misc:Depends},
+         perl (>= 5.15.6) | libextutils-parsexs-perl (>= 3.070000),
+Description: module for using Perl XS with C++ code
+ ExtUtils::XSpp is a Perl module that implements XS++, a thin layer on top of
+ plain XS designed to support C++ code. It allows developers to easily write
+ Perl bindings to C++ code by compiling code using the XS++ preprocessor
+ `xspp' instead of the normal XS preprocessor `xsubpp'.
+

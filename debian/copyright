@@ -1,0 +1,49 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ExtUtils-XSpp
+Upstream-Contact: Mattia Barbon <mbarbon@cpan.org>
+Source: https://metacpan.org/release/ExtUtils-XSpp
+
+Files: *
+Copyright: 2003-2009, Mattia Barbon <mbarbon@cpan.org>
+License: Artistic or GPL-1+
+
+Files: examples/*
+Copyright: 2009, Steffen Mueller <smueller@cpan.org>
+License: Artistic or GPL-1+
+
+Files: examples/Object-WithIntAndString/ppport.h
+ examples/XSpp-Example/src/ppport.h
+Copyright: 2004-2009, Marcus Holland-Moritz <mhx-cpan@gmx.net>
+ 2001, Paul Marquess <pmqs@cpan.org> (Version 2.x)
+ 1999, Kenneth Albanowski <kjahds@kjahds.com> (Version 1.x)
+License: Artistic or GPL-1+
+
+Files: lib/ExtUtils/XSpp/Grammar.pm
+Copyright: 1998-2001, Francois Desarmenien <francois@fdesar.net>
+License: Artistic or GPL-1+
+
+Files: examples/XSpp-Example/lib/XSpp/Example.pm
+Copyright: 2010, Steffen Mueller
+License: Artistic or GPL-1+
+
+Files: debian/*
+Copyright: 2009, Ryan Niebur <ryan@debian.org>
+ 2009-2015, gregor herrmann <gregoa@debian.org>
+ 2010-2011, Jonathan Yu <jawnsy@cpan.org>
+License: Artistic or GPL-1+
+
+License: Artistic
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the Artistic License, which comes with Perl.
+ .
+ On Debian systems, the complete text of the Artistic License can be
+ found in `/usr/share/common-licenses/Artistic'.
+
+License: GPL-1+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 1, or (at your option)
+ any later version.
+ .
+ On Debian systems, the complete text of version 1 of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-1'.

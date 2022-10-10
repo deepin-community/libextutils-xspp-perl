@@ -1,0 +1,211 @@
+libextutils-xspp-perl (0.1800-2.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 01:48:48 +0100
+
+libextutils-xspp-perl (0.1800-2) unstable; urgency=medium
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ gregor herrmann ]
+  * debian/control: update Module::Build dependency.
+  * Update years of packaging copyright.
+  * Declare compliance with Debian Policy 3.9.6.
+  * Mark package as autopkgtest-able.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 31 May 2015 18:11:55 +0200
+
+libextutils-xspp-perl (0.1800-1) unstable; urgency=low
+
+  * Team upload
+
+  * Import Upstream version 0.1800
+  * Bump dependency on ExtUtils::ParseXS to 3.07
+
+ -- Florian Schlichting <fsfs@debian.org>  Sat, 21 Sep 2013 00:39:37 +0200
+
+libextutils-xspp-perl (0.1700-1) unstable; urgency=low
+
+  * Team upload
+
+  [ gregor herrmann ]
+  * debian/control: update {versioned,alternative} (build) dependencies.
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Axel Beckert ]
+  * debian/copyright: migrate pre-1.0 format to 1.0 using "cme fix dpkg-
+    copyright"
+
+  [ Florian Schlichting ]
+  * Import Upstream version 0.1700
+  * Add build-dependency on Module::Build 0.40
+  * Bump Standards-Version to 3.9.4 (no change)
+  * Add build-dependency on libparse-yapp-perl
+  * Remove comma in d/copyright Files field
+
+ -- Florian Schlichting <fsfs@debian.org>  Mon, 16 Sep 2013 12:23:08 +0200
+
+libextutils-xspp-perl (0.1602-3) unstable; urgency=low
+
+  * Remove debian/source/local-options; abort-on-upstream-changes and
+    unapply-patches are default in dpkg-source since 1.16.1.
+  * Swap order of alternative (build) dependencies after the perl 5.14
+    transition.
+    Closes: #652760
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 20 Dec 2011 16:50:44 +0100
+
+libextutils-xspp-perl (0.1602-2) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+
+  [ gregor herrmann ]
+  * Add perl (>= 5.14) as an alternative (build) dependency to
+    libextutils-parsexs-perl. (Closes: #636770)
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 08 Aug 2011 17:40:59 +0200
+
+libextutils-xspp-perl (0.1602-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/copyright: Refer to "Debian systems" instead of "Debian GNU/Linux
+    systems".
+  * Bump Standards-Version to 3.9.2 (no changes).
+
+ -- Ansgar Burchardt <ansgar@debian.org>  Mon, 06 Jun 2011 22:15:03 +0200
+
+libextutils-xspp-perl (0.1601-1) unstable; urgency=low
+
+  [ Jonathan Yu ]
+  * New upstream release
+  * Update copyright information
+  * Bump to debhelper compat 8
+  * Minor tweaks to control description
+
+  [ Ansgar Burchardt ]
+  * Update my email address.
+
+  [ gregor herrmann ]
+  * debian/watch: add uversionmangle in case upstream goes back to two digit
+    minor versions.
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Sat, 12 Mar 2011 14:04:38 -0500
+
+libextutils-xspp-perl (0.15-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/copyright: bump Format-Specification, point to
+    /usr/share/common-licenses/GPL-1.
+  * Set Standards-Version to 3.9.1 (no changes).
+  * debian/control: remove "perl (>= 5.10) | libmodule-build-perl" (satisfied
+    in stable, and oldstable is gone).
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 22 Aug 2010 13:47:32 +0200
+
+libextutils-xspp-perl (0.14-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * New upstream release.
+  * No longer run author tests.
+    * Remove build-dep on libtest-pod-perl.
+
+  [ gregor herrmann ]
+  * Lower debhelper build dependency to 7 (no more overrides).
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Wed, 21 Jul 2010 23:40:35 +0900
+
+libextutils-xspp-perl (0.12-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update copyright information about third-party files in debian/copyright.
+  * Set Standards-Version to 3.9.0 (no changes).
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 11 Jul 2010 21:06:58 +0200
+
+libextutils-xspp-perl (0.11-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Tue, 04 May 2010 22:39:51 +0900
+
+libextutils-xspp-perl (0.10-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bump (build-)dependency on libextutils-parsexs-perl to >= 2.220200.
+  * Remove patch: applied upstream.
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Thu, 15 Apr 2010 19:45:00 +0900
+
+libextutils-xspp-perl (0.09-1) unstable; urgency=low
+
+  * New upstream release.
+  * Correct syntax error in POD.
+    + new patch: pod.patch
+  * Use source format 3.0 (quilt).
+  * Add myself to Uploaders.
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Thu, 11 Feb 2010 13:53:30 +0900
+
+libextutils-xspp-perl (0.08-1) unstable; urgency=low
+
+  * New upstream release
+  * Standards-Version 3.8.4 (no changes)
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Sat, 06 Feb 2010 17:55:19 -0500
+
+libextutils-xspp-perl (0.07-1) unstable; urgency=low
+
+  * New upstream release
+  * Move deps from B-D to B-D-I since this is an Arch: all package
+  * Drop ${shlibs:Depends} as this is Arch: all
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Sun, 24 Jan 2010 12:41:38 -0500
+
+libextutils-xspp-perl (0.06-1) unstable; urgency=low
+
+  [ Jonathan Yu ]
+  * New upstream release
+  * Add myself to Uploaders and Copyright
+  * Rewrite control description
+  * Update copyright information to new DEP5 format
+  * Run AUTHOR_TESTS inside an override
+
+  [ gregor herrmann ]
+  * debian/control: Changed: (build-)depend on perl instead of perl-
+    modules.
+  * debian/control: add (technically) missing build dependency on perl.
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Wed, 13 Jan 2010 16:26:20 -0500
+
+libextutils-xspp-perl (0.05-1) unstable; urgency=low
+
+  [ Jonathan Yu ]
+  * New upstream release
+
+  [ Ryan Niebur ]
+  * Update ryan52's email address
+
+  [ gregor herrmann ]
+  * Add /me to Uploaders.
+
+ -- gregor herrmann <gregoa@debian.org>  Thu, 01 Oct 2009 23:14:43 +0200
+
+libextutils-xspp-perl (0.04-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #543307)
+
+ -- Ryan Niebur <ryanryan52@gmail.com>  Tue, 25 Aug 2009 23:00:05 -0700
